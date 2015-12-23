@@ -21,6 +21,8 @@ The osdb gem provide a simple script to find and download the best subtitle on
 
 ### Usage
 
+    getsub [options] DIRECTORY | VIDEO_FILE [VIDEO_FILE ...]
+
 You just have to execute `getsub` with some video files in arguments:
 
     $ getsub somemovie.avi othermovie.mkv
@@ -32,11 +34,6 @@ Or specify a directory to search recursively:
 For options details just run:
 
     $ getsub --help
-    
-    
-Automatically download subs for your video files using opensubtitle.org
-
-Usage: getsub [options] DIRECTORY | VIDEO_FILE [VIDEO_FILE ...]
 
 Main options:
 
